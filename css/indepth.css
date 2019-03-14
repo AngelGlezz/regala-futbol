@@ -1,0 +1,58 @@
+#pages {
+	background-image: url(../images/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	overflow: auto;
+}
+
+#inner {
+	width: 1200px;
+	margin: 0px auto;
+	overflow: auto;
+}
+
+img {
+	width: 100%!important;
+}
+
+#title {
+	width: 970px;
+	margin: 0px auto;
+	margin-top: 40px;
+}
+
+#text-1 {
+	margin: 40px 0px;
+	width: 630px;
+	float: left;
+	overflow: auto;
+}
+
+#juanito-1 {
+	width: 390px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 180px;
+	overflow: auto;
+}
+
+@media (max-width: 415px) {
+	#inner {
+		width: 85%;
+	}
+
+	#title {
+		width: 95%;
+		margin-top: 15px;
+	}
+
+	#text-1 {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	#juanito-1 {
+		width: 50%;
+		margin-top: 0px;
+	}
+}
