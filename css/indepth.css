@@ -2,41 +2,295 @@
 	background-image: url(../images/fondo.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	overflow: auto;
+	padding: 50px 0px;
+	background-position: center;
 }
 
 #inner {
-	width: 1200px;
+	width: 1000px;
 	margin: 0px auto;
-	overflow: auto;
+	
 }
 
 img {
 	width: 100%!important;
 }
 
+.separador {
+	width: 100%;
+	clear: both;
+}
+
 #title {
 	width: 970px;
-	margin: 0px auto;
-	margin-top: 40px;
+	margin: 60px auto;
 }
 
 #text-1 {
 	margin: 40px 0px;
 	width: 630px;
 	float: left;
-	overflow: auto;
 }
 
 #juanito-1 {
-	width: 390px;
+	width: 370px;
 	float: right;
-	margin-right: 20px;
 	margin-top: 180px;
 	overflow: auto;
 }
 
-@media (max-width: 415px) {
+#flecha-1 {
+	width: 115px;
+	height: 155px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 180px;
+}
+
+#text-2 {
+	width: 600px;
+	margin: 0px auto;
+	margin-top: 50px;
+}
+
+#text-3 {
+	width: 520px;
+	margin-top: 80px;
+	float: left;
+}
+
+#flecha-2 {
+	width: 200px;
+	height: 150px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 120px;
+}
+
+#juanito-2 {
+	width: 260px;
+	float: left;
+	margin-top: 140px;
+}
+
+#text-4 {
+	float: right;
+	width: 740px;
+	margin-top: 50px;
+}
+
+#flecha-3 {
+	width: 120px;
+	height: 160px;
+	position: relative;
+	margin: 0px auto;
+	top: -35px;
+	overflow: auto;
+	margin-left: 440px;
+}
+
+#text-5 {
+	width: 100%;
+	margin-bottom: 70px;
+}
+
+#balon {
+	width: 660px;
+	margin: 0px auto;
+}
+
+#text-6 {
+	width: 600px;
+	margin: 70px auto;
+}
+
+#content-fund {
+	width: 100%;
+}
+
+.cont_item {
+	width: 100%;
+	position: relative;
+}
+
+.line {
+	width: 100%;
+	margin-bottom: 80px;
+	position: relative;
+}
+
+.img-fund {
+	width: 270px;
+	margin: 0px auto;
+}
+
+.text-fund {
+	width: 490px;
+	margin: 0px auto;
+}
+
+#flecha-fund-1 {
+	width: 190px;
+	height: 120px;
+	position: absolute;
+	top: -40px;
+	right: 40px;
+}
+
+.text-funds {
+	width: 80%;
+	margin: 0px auto;
+}
+
+.item {
+	width: 50%;
+	float: left;
+}
+
+#txt-bifam {
+	width: 320px;
+}
+
+#flecha-fund-2 {
+	width: 80px;
+	height: 130px;
+	position: absolute;
+	top: -200px;
+	left: 0px;
+}
+
+#flecha-fund-3 {
+	width: 80px;
+	height: 130px;
+	position: absolute;
+	top: -120px;
+	right: 0px;
+}
+
+#text-7 {
+	width: 100%;
+	margin: 200px auto 120px auto;
+}
+
+.bullet {
+	width: 80%;
+	margin: 50px auto;
+	position: relative;
+}
+
+.bullet a {
+	width: 91%;
+	float: right;
+	height: 55px;
+	position: absolute;
+	bottom: 5px;
+	right: 0px;
+}
+
+#text-8 {
+	width: 100%;
+	margin: 200px auto 30px auto;
+}
+
+#juanito-3 {
+	width: 420px;
+	float: right;
+}
+
+#footer {
+	width: 480px;
+	margin: 0px auto;
+	opacity: .6;
+}
+
+@media (max-width: 1400px) {
+	#inner {
+		width: 800px;
+	}
+
+	#title {
+		width: 100%;
+	}
+
+	#juanito-1 {
+		margin-top: 0px;
+	}
+
+	#juanito-2 {
+		float: none;
+		margin-top: 170px;
+	}
+
+	#text-4 {
+		float: none;
+		margin-top: -350px;
+	}
+
+	#flecha-3 {
+		margin-left: 300px;
+	}
+}
+
+@media (max-width: 1000px) {
+	#pages {
+		background-size: 110% 100%;
+	}
+
+	#inner {
+		width: 760px;
+	}
+}
+
+@media (max-width: 768px) {
+	#inner {
+		width: 550px;
+	}
+
+	#flecha-1 {
+		margin-top: -180px;
+		margin-left: 70px;
+	}
+
+	#flecha-2 {
+		float: none;
+		margin: 0px auto;
+	}
+
+	#text-4 {
+		margin-top: -10px;
+	}
+
+	#juanito-2 {
+		margin-top: 20px;
+	}
+
+	#flecha-3 {
+	    margin-left: 160px;
+	}
+
+	#balon, #text-6, #text-4, #text-1, #text-2, #text-3 {
+		width: 100%;
+	}
+
+	#txt-bifam {
+		width: 65%;
+	}
+
+	#text-7, #text-8 {
+		margin-top: 70px;
+	}
+
+	#flecha-fund-1 {
+		width: 120px;
+		right: 0px;
+	}
+
+	#juanito-3, #footer {
+		width: 70%;
+	}
+}
+
+@media (max-width: 570px) {
 	#inner {
 		width: 85%;
 	}
@@ -54,5 +308,78 @@ img {
 	#juanito-1 {
 		width: 50%;
 		margin-top: 0px;
+	}
+
+	#flecha-1 {
+		margin-top: 0px;
+		width: 66px;
+	}
+
+	#text-2 {
+		margin-top: 0px;
+	}
+
+	#juanito-2 {
+		width: 65%;
+		margin-top: 40px;
+	}
+
+	#flecha-3 {
+		width: 80px;
+	    margin-left: 50px;
+	    height: auto;
+	    top: -15px;
+	}
+
+	#text-3 {
+		margin-top: 50px;
+	}
+
+	#text-5 {
+		margin-bottom: 50px;
+	}
+
+	#text-6 {
+		margin: 30px auto;
+	}
+
+	#text-7 {
+		margin: 50px auto;
+	}
+
+	#flecha-fund-1 {
+		width: 25%;
+	}
+
+	#flecha-fund-2, #flecha-fund-3 {
+		width: 15%;
+	}
+
+	.line {
+		margin-bottom: 25px;
+	}
+
+	.img-fund {
+		width: 45%;
+	}
+
+	.text-fund {
+		width: 55%;
+	}
+
+	.item .img-fund {
+		width: 90%;
+	}
+
+	#txt-bifam {
+		width: 65%;
+	}
+
+	#flecha-fund-3 {
+		top: -90px;
+	}
+
+	#flecha-fund-2 {
+		top: -110px;
 	}
 }
