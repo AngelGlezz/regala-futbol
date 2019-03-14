@@ -347,6 +347,10 @@ img {
 		margin: 50px auto;
 	}
 
+	.item {
+		width: 100%;
+	}
+
 	#flecha-fund-1 {
 		width: 25%;
 	}
@@ -364,11 +368,11 @@ img {
 	}
 
 	.text-fund {
-		width: 55%;
+		width: 80%;
 	}
 
-	.item .img-fund {
-		width: 90%;
+	.text-funds {
+		margin-bottom: 25px;
 	}
 
 	#txt-bifam {
@@ -376,10 +380,10 @@ img {
 	}
 
 	#flecha-fund-3 {
-		top: -90px;
+		top: 140px;
 	}
 
 	#flecha-fund-2 {
-		top: -110px;
+		top: -50px;
 	}
 }
