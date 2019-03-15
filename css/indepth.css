@@ -1,7 +1,7 @@
 #pages {
 	background-image: url(../images/fondo.jpg);
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: cover;
 	padding: 50px 0px;
 	background-position: center;
 }
@@ -204,6 +204,9 @@ img {
 }
 
 @media (max-width: 1400px) {
+	#pages {
+		background-size: 100% 100%;
+	}
 	#inner {
 		width: 800px;
 	}
@@ -233,7 +236,7 @@ img {
 
 @media (max-width: 1000px) {
 	#pages {
-		background-size: 110% 100%;
+		background-size: 130% 100%;
 	}
 
 	#inner {
@@ -291,6 +294,11 @@ img {
 }
 
 @media (max-width: 570px) {
+	#pages {
+		background-position: 20%;
+		background-size: cover;
+	}
+
 	#inner {
 		width: 85%;
 	}
