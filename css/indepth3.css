@@ -13,7 +13,7 @@
 	
 }
 
-img {
+.img {
 	width: 100%!important;
 }
 
@@ -207,7 +207,7 @@ img {
 	float: right;
 }
 
-#footer {
+#footer-in {
 	width: 480px;
 	margin: 0px auto;
 	opacity: .6;
@@ -304,7 +304,7 @@ img {
 		right: 0px;
 	}
 
-	#juanito-3, #footer {
+	#juanito-3, #footer-in {
 		width: 70%;
 	}
 }
